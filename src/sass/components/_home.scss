@@ -1,0 +1,16 @@
+.home-wrapper {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/images/back.jpg);
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .home-wrapper {
+    // background-repeat:space;
+    background-size: cover;
+    background-image: url(../../assets/images/back2.svg);
+  }
+}
