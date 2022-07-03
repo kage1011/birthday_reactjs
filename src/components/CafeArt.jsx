@@ -17,11 +17,11 @@ function CafeArt(props) {
         </div>
       </div>
       {props.pass >= 2 ? (
-        <h3 style={{ background: "aqua", borderRadius: "45%" }}>
+        <h3 style={{ background: "aqua", borderRadius: "45%",fontFamily:'monaco',paddingTop:'5px' }}>
           hong muốn nghe nữa thì ấn vô <br/> cái nút xanh xanh kia kìa
         </h3>
       ) : (
-        <h3 style={{ background: "aqua", borderRadius: "45%" }}>
+        <h3 style={{ background: "aqua", borderRadius: "45%",fontFamily:'monaco',marginLeft:'-20px',paddingTop:'10px',paddingBottom:'5px' }}>
           Nhấn vô cái sanwich cute này <br />
           nếu bà muốn nghe {props.name} nói nhé !<br />
         </h3>

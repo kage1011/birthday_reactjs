@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import audio from "../assets/fake-data/audio";
 import { Image, Button } from "antd";
-import { PlayCircleOutlined } from "@ant-design/icons";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import CafeArt from "../components/CafeArt";

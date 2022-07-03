@@ -3,9 +3,8 @@ import PropTypes from "prop-types";
 import Confetti from "react-confetti";
 import { Button } from "antd";
 import { ArrowDownOutlined, ArrowUpOutlined } from "@ant-design/icons";
-import CafeArt from "../components/CafeArt";
 import CardArt from "../components/CardArt";
-import { Link, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 function Detail(props) {
   const [rollTop, SetRollTop] = useState(false);
   const [listen, SetListen] = useState("");
@@ -44,8 +43,8 @@ function Detail(props) {
         )}
         {rollTop ? (
           <div class="center_div">
-            <p style={{ color: "white" }}>
-              Giờ thì,bà muốn nghe ai nói xấu bà trước !
+            <p style={{ color: "white",fontFamily:'monaco' }}>
+              Vậy giờ bà muốn nghe ai nói xấu bà trước!
               <br />
               <Button
                 className="btn-in"

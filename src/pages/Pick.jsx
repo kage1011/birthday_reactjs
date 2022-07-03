@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import { Button, Radio, Input, Space, notification, Form,Row, Col } from "antd";
-import { Link, useHistory } from "react-router-dom";
+import { Button, Radio, Input, Space, notification, Form, Image} from "antd";
+import { useHistory } from "react-router-dom";
 import db from "../firebase/config";
-import InputField from "../components/InputField";
 
 // import { FastField, Form, Formik } from "formik";
 
