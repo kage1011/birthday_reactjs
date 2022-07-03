@@ -1,7 +1,8 @@
+
 .card {
     background: #12192c;
     border-radius: 30px;
-    height: 85vh;
+    height: 80vh;
     width: 80vw;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     text-align: center;
@@ -15,7 +16,7 @@
     margin-top: 20px;
   }
   
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 768px) and (max-width: 2000px) {
     .card {
       flex-direction: row-reverse;
     }
@@ -27,16 +28,17 @@
     }
   }
   
-  // @media only screen and (max-height: 768px) {
-  //   .card {
-  //     flex-direction: row-reverse;
-  //   }
-  //   .card img.birthday {
-  //     width: 100%;
-  //     max-width: 50vw;
-  //     max-height: unset;
-  //   }
-  // }
+  @media only screen and (max-width: 768px) {
+    .card {
+      flex-direction: column-reverse ;
+    }
+    .card img.birthday {
+      width: 100%;
+      max-width: 50vw;
+      border-radius: 30px;
+      margin-top: -35px;
+    }
+  }
   
   img.birthday {
     max-height: 40vh;
@@ -63,4 +65,3 @@
       margin-top: 10px;
       text-align: center;
   }
-  

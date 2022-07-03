@@ -1,4 +1,13 @@
 /* Player */
+.listen-wrapper {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/images/background.svg);
+  display: flex;
+  justify-content: center;
+}
 .no-height {
   height: 0 !important;
 }
@@ -7,6 +16,7 @@
   margin: 0 auto;
   overflow: hidden;
   background-color: #eaedef;
+  border-style: solid;
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -34,5 +44,14 @@
 }
 
 .icon-change {
-margin-left: 50px;
+  margin-left: 50px;
+}
+@media (max-width: 768px) {
+  .listen-wrapper {
+    background-repeat:no-repeat;
+    height: 120vh;
+
+    background-size: cover;
+    background-image: url(../../assets/images/background2.svg);
+  }
 }

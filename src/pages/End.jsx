@@ -22,7 +22,7 @@ function End(props) {
         </div>
         <div class="text-container">
           <p id="head">Happy Birthday!</p>
-          <h5>@LPW_Sajid</h5>
+          <h5><a href="https://www.facebook.com/profile.php?id=100008885376582" target={"blank"}>Thuý Nga</a></h5>
           <p>
             I hope your special day will bring you lots of happiness, love, and
             fun. You deserve them a lot. Enjoy!

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Button } from "antd";
 import { Link } from "react-router-dom";
-import { FacebookOutlined } from '@ant-design/icons';
+import { FacebookOutlined } from "@ant-design/icons";
 
 function Wellcome(props) {
   return (
@@ -15,19 +15,23 @@ function Wellcome(props) {
           class="birthday"
         />
         <div class="text">
-          <h1 style={{color:'white'}}>Happy Birthday!</h1>
-          <p>Cái đống lộn xộn này</p>
+          <h1 style={{ color: "white" }}>Happy Birthday!</h1>
+          <p>Đống lộn xộn này được làm bởi<span style={{ color: "tomato" }}> ❤</span> </p>
           <div class="credit">
-            Được làm <span style={{ color: "tomato" }}>❤</span> bởi Hội chị em
-            bạn dì
+            <a
+              href="https://www.facebook.com/kimthanh.tranthi.501"
+              target={"blank"}
+            >
+              <FacebookOutlined /> Hay càm ràm{" "}
+            </a>
             <br />
-            <a href="https://www.learningrobo.com/" target={"blank"}><FacebookOutlined /> Hay càm ràm </a>
-            <br />
-            <a href="https://www.learningrobo.com/" target={"blank"}><FacebookOutlined /> Thích ăn chửi </a>
+            <a href="https://www.facebook.com/khai.seto.58/" target={"blank"}>
+              <FacebookOutlined /> Thích ăn chửi{" "}
+            </a>
           </div>
           Nếu muốn biết bọn tui nói xấu gì về bà thì
-          <br/>
-          <Button className="btn-wellcome" type="primary" size={"large"}>
+          <br />
+          <Button className="btn-in" type="primary" size={"large"}>
             <Link to="/detail">{" ấn vô đây!"}</Link>
           </Button>
         </div>

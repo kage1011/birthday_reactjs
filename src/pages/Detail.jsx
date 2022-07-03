@@ -48,7 +48,7 @@ function Detail(props) {
               Giờ thì,bà muốn nghe ai nói xấu bà trước !
               <br />
               <Button
-                className="btn-wellcome"
+                className="btn-in"
                 style={{ background: "lightblue" }}
                 onClick={() => Listen("thanhthanh")}
               >
@@ -64,7 +64,7 @@ function Detail(props) {
                 </Link>
               </Button>{" "}
               <Button
-                className="btn-wellcome"
+                className="btn-in"
                 style={{ background: "lightblue" }}
                 onClick={() => Listen("kaio")}
               >

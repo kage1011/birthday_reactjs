@@ -34,7 +34,7 @@ function Listen(props) {
     return () => clearTimeout(timer);
   }, [timeChange]);
   return (
-    <div>
+    <div className="listen-wrapper">
       <div className="player-container">
         <br />
         {audioPass >= 2 && (
